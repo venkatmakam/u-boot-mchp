@@ -519,6 +519,7 @@
 			clocks = <&clkcfg CLK_USB>;
 			interrupt-names = "dma","mc";
 			status = "disabled";
+            dr_mode = "host";
 		};
 
 		mbox: mailbox@37020000 {
